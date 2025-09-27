@@ -1,0 +1,157 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://world_tileset.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 8.29077, 8.00734 )
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( -49, -5 )
+
+[node name="WorldTileset" type="Sprite" parent="."]
+position = Vector2( 401, 101 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WorldTileset"]
+position = Vector2( -3.05176e-05, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldTileset/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="WorldTileset2" type="Sprite" parent="."]
+position = Vector2( 529, 102 )
+scale = Vector2( 4, 3.875 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 16, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WorldTileset2"]
+position = Vector2( -3.05176e-05, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldTileset2/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="WorldTileset3" type="Sprite" parent="."]
+position = Vector2( 657, 101 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 16, 0, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WorldTileset3"]
+position = Vector2( -3.05176e-05, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldTileset3/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="WorldTileset4" type="Sprite" parent="."]
+position = Vector2( 401, 229 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 16, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WorldTileset4"]
+position = Vector2( -3.05176e-05, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldTileset4/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="WorldTileset5" type="Sprite" parent="."]
+position = Vector2( 657, 229 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 96, 16, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WorldTileset5"]
+position = Vector2( -3.05176e-05, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldTileset5/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="WorldTileset6" type="Sprite" parent="."]
+position = Vector2( 529, 357 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 112, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WorldTileset6"]
+position = Vector2( -3.05176e-05, 0 )
+
+[node name="WorldTileset7" type="Sprite" parent="."]
+position = Vector2( 401, 357 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 96, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WorldTileset7"]
+position = Vector2( -3.05176e-05, 0 )
+
+[node name="WorldTileset8" type="Sprite" parent="."]
+position = Vector2( 785, 293.86 )
+scale = Vector2( 4, 4.10751 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 128, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WorldTileset8"]
+position = Vector2( -3.05176e-05, 0 )
+
+[node name="WorldTileset9" type="Sprite" parent="."]
+position = Vector2( 657, 353 )
+scale = Vector2( 4, 3.5 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 112, 80, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WorldTileset9"]
+position = Vector2( -3.05176e-05, 0 )
+
+[node name="WorldTileset10" type="Sprite" parent="."]
+position = Vector2( 529, 229 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 128, 0, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WorldTileset10"]
+position = Vector2( -3.05176e-05, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldTileset10/StaticBody2D"]
+shape = SubResource( 1 )

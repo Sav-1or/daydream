@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/cat-laugh-meme-1.mp3-a5f014b4ee9122647869a55c739bba11.mp3str"
+
+[deps]
+
+source_file="res://cat-laugh-meme-1.mp3"
+dest_files=[ "res://.import/cat-laugh-meme-1.mp3-a5f014b4ee9122647869a55c739bba11.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
